@@ -1,0 +1,80 @@
+.row-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(66, 66, 66) !important;
+}
+.card {
+  background-color: rgb(66, 66, 66);
+  box-shadow: 8px -8px 14px -3px rgba(142, 142, 142, 0.71);
+  -webkit-box-shadow: 8px -8px 14px -3px rgba(142, 142, 142, 0.71);
+  -moz-box-shadow: 8px -8px 14px -3px rgba(142, 142, 142, 0.71);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.card-body input,
+textarea {
+  margin-bottom: 40px;
+  border: none;
+  outline: none;
+  color: antiquewhite;
+  background-color: rgb(66, 66, 66);
+  font-size: x-large;
+  width: 100%;
+  transition: 0.5s;
+}
+.card-body input:hover,
+textarea:hover {
+  border-bottom: 2px solid black;
+}
+.card-body button {
+  /* margin-top: 40px; */
+  background-color: rgb(26, 159, 236);
+  border: none;
+  /* outline: none; */
+  width: 70px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  font-size: medium;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.card-body button:hover {
+  letter-spacing: 1.3px;
+  width: 100px;
+}
+.containerbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 300px;
+  /* border: 2px solid white; */
+}
+.contact img {
+  width: 50px;
+  height: 50px;
+}
+.contact img:hover {
+  top: -10px;
+}
+img .git {
+  width: 70px;
+  height: 70px;
+}
+img .mail {
+  width: 80px;
+  height: 120px;
+}

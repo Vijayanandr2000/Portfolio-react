@@ -1,0 +1,29 @@
+.img {
+  width: 70px;
+  height: 70px;
+  /* border: 1px solid black; */
+  padding: 10px;
+  transition: 0.4s;
+}
+.img:hover {
+  border-radius: 50%;
+
+  box-shadow: inset 6px 6px 18px #0e0c0c, inset -6px -6px 18px #3a3030;
+}
+.title h1 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  color: white;
+}
+.row {
+  margin-top: 50px;
+}
+.col1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}

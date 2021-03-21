@@ -1,0 +1,127 @@
+#education {
+  margin-top: 100px;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  color: #fff !important;
+}
+
+.card-head {
+  text-align: center !important;
+  text-transform: uppercase !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+  color: rgb(177, 177, 177) !important;
+}
+.card-educ {
+  text-align: center !important;
+  line-height: 20px !important;
+  font-size: xx-large !important;
+  font-weight: 200 !important;
+}
+/* .col4 {
+  max-height: 200px;
+} */
+
+.card-edu {
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  background: #383838;
+  min-height: 370px;
+
+  transition: 0.4s;
+}
+.card-edu:hover {
+  box-shadow: inset 5px -5px 9px #191919, inset -5px 5px 9px #575757;
+  max-height: 500px;
+  padding: 10px;
+}
+@media only screen and (max-width: 400px) {
+  #education {
+    margin-top: 100px;
+  }
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    color: #fff !important;
+  }
+
+  .card-head {
+    text-align: center !important;
+    text-transform: uppercase !important;
+    text-decoration: underline !important;
+    font-weight: bold !important;
+    color: rgb(177, 177, 177) !important;
+  }
+  .card-educ {
+    text-align: center !important;
+    line-height: 20px !important;
+    font-size: xx-large !important;
+    font-weight: 200 !important;
+  }
+  .col4 {
+    margin-bottom: 20px;
+  }
+
+  .card-edu {
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    background: #383838;
+    min-height: 370px;
+
+    transition: 0.4s;
+  }
+  .card-edu:hover {
+    box-shadow: inset 5px -5px 9px #191919, inset -5px 5px 9px #575757;
+    max-height: 500px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  #education {
+    margin-top: 100px;
+  }
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    color: #fff !important;
+  }
+
+  .card-head {
+    text-align: center !important;
+    text-transform: uppercase !important;
+    text-decoration: underline !important;
+    font-weight: bold !important;
+    color: rgb(177, 177, 177) !important;
+  }
+  .card-educ {
+    text-align: center !important;
+    line-height: 20px !important;
+    font-size: xx-large !important;
+    font-weight: 200 !important;
+  }
+  .col4 {
+    margin-bottom: 30px;
+  }
+
+  .card-edu {
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    background: #383838;
+    min-height: 370px;
+
+    transition: 0.4s;
+  }
+  .card-edu:hover {
+    box-shadow: inset 5px -5px 9px #191919, inset -5px 5px 9px #575757;
+    max-height: 500px;
+    padding: 10px;
+  }
+}

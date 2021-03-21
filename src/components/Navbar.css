@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+
+body {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: transparent !important;
+  max-height: 70px;
+  /* position: fixed !important; */
+  /* z-index: 2000; */
+  /* background-color: ; */
+  /* width: 100%; */
+}
+
+.navbar-brand h1 {
+  margin-top: 9px;
+  /* margin-left: 0px; */
+  font-family: "Ultra", serif !important;
+  color: rgb(191, 204, 204) !important;
+  font-size: 1.7rem;
+  font-weight: lighter;
+  font-style: italic;
+  align-items: center;
+  transition: 0.5s;
+  width: 70px;
+  z-index: 1;
+  /* border: 1px solid black; */
+}
+.navbar-brand h1:hover {
+  /* margin-top: -4px; */
+  color: rgb(221, 188, 0) !important;
+  font-weight: 500;
+  font-size: xx-large;
+  letter-spacing: 1px;
+}
+.collapse {
+  margin: 10px !important;
+  margin-left: 150px !important;
+}
+ul li {
+  margin: 0 5px;
+}
+
+ul li a {
+  margin: 5px;
+
+  color: #c0a8a8 !important;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.5s;
+  letter-spacing: 0.5px !important;
+  border-radius: 20px;
+  width: 100px;
+
+  text-align: center;
+  text-transform: uppercase;
+  /* border: 1px solid black; */
+}
+ul li a:hover {
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px !important;
+  background: white !important;
+  color: black !important;
+  padding: 4px;
+
+  /* border-bottom: 1px solid rgb(216, 216, 216) !important; */
+}
