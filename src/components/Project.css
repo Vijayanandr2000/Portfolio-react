@@ -59,11 +59,12 @@
 }
 .col-btn button {
   width: 120px;
+  border: 1px solid white;
 }
 @media only screen and (max-width: 400px) {
   .col-pro {
     margin-bottom: 20px !important;
-
+    margin-left: -50px;
     /* box-shadow: inset -50px 50px 100px #252525, inset 50px -50px 100px #515151; */
   }
 

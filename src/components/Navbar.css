@@ -3,14 +3,23 @@
 body {
   scroll-behavior: smooth;
 }
+nav {
+  position: fixed !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .navbar {
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
   max-height: 70px;
+  background-color: rgb(66, 66, 66) !important;
   /* position: fixed !important; */
-  /* z-index: 2000; */
+  /* margin-right: 10px !important; */
+  /* position: fixed !important; */
+  z-index: 2000;
   /* background-color: ; */
-  /* width: 100%; */
+  width: 100%;
 }
 
 .navbar-brand h1 {
@@ -35,7 +44,7 @@ body {
   letter-spacing: 1px;
 }
 .collapse {
-  margin: 10px !important;
+  /* margin: 10px !important; */
   margin-left: 150px !important;
 }
 ul li {
@@ -68,4 +77,19 @@ ul li a:hover {
   padding: 4px;
 
   /* border-bottom: 1px solid rgb(216, 216, 216) !important; */
+}
+@media only screen and (max-width: 400px) {
+  .collapse {
+    /* margin: 10px !important; */
+    margin-left: 10px !important;
+  }
+
+  .navbar {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .navbar {
+    width: 70%;
+  }
 }

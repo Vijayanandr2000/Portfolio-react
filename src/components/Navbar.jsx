@@ -10,7 +10,7 @@ const Navbar = () => {
           <h1>VIJAYANAND</h1>
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler mr-0"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -18,7 +18,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon  "></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">

@@ -26,6 +26,7 @@ const Project = () => {
           <h1>projects</h1>
         </div>
         <Button btns={btn} filter={filter} />
+
         <Data pro={pro} />
       </div>
     </section>

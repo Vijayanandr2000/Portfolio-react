@@ -21,36 +21,19 @@ const About = () => {
               <h3>
                 I like to learn new Technologies and I'm good in Problem solving
               </h3>
-              <h2>
-                Name.:
-                <span>
-                  <p>Vijayanand R</p>
-                </span>
-              </h2>
-              <h2>
-                Email:
-                <span>
-                  <p>vijayanandr2000@gmail.com</p>
-                </span>
-              </h2>
-              <h2>
-                Mobile:
-                <span>
-                  <p>8754833291</p>
-                </span>
-              </h2>
-              <h2>
-                City:
-                <span>
-                  <p>Jayankondam</p>
-                </span>
-              </h2>
-              <h2>
-                Country:
-                <span>
-                  <p>India</p>
-                </span>
-              </h2>
+              <h3>
+                I'm a Full Stack Developer primarily woring in MERN stack among
+                the Full Stack technologies
+              </h3>
+              <h4>
+                I'm passionate to learn new Technologies and solving
+                problems...!
+              </h4>
+              <h4>
+                On the off chance that you might want to connect with me, don't
+                hesitate to send me an email at vijayanandr2000@gmail.com or
+                contact me at +91 8754833291
+              </h4>
             </div>
           </div>
           <div className="col-md-4">

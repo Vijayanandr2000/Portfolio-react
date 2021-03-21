@@ -1,6 +1,6 @@
 img {
-  width: 380px;
-  height: 580px;
+  width: 305px;
+  height: 499px;
 }
 .card {
   margin-left: 50px;
@@ -62,25 +62,22 @@ img {
   line-height: 50px;
 }
 .col {
-  /* border: 1px solid white; */
-  /* box-shadow: 2px 5px 5px 9px rgba(170, 170, 170, 0.75);
-  -webkit-box-shadow: 2px 5px 5px 9px rgba(170, 170, 170, 0.75);
-  -moz-box-shadow: 2px 5px 5px 9px rgba(170, 170, 170, 0.75); */
   border-radius: 16px;
   background: #322f2f;
   box-shadow: 5px -5px 10px #252323, -5px 5px 10px #3f3b3b;
 }
-.card-img {
-  border-radius: 16px;
-  background: #4e4e4e;
-  box-shadow: 5px -5px 10px #252323, -5px 5px 10px #3f3b3b;
+.col h4 {
+  color: rgb(238, 238, 238);
+  /* font-size: 15px; */
+  font-weight: lighter;
+  margin: 20px 0;
 }
-
 @media only screen and (max-width: 400px) {
   img {
     /* margin-top: 30px; */
     width: 330px;
-    height: 520px;
+    height: 510px;
+    /* margin-left: 20px; */
   }
   .card {
     margin-left: 50px;
