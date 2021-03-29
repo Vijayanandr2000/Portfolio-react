@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
-        <a class="navbar-brand mr-5" href="#">
+        <a class="navbar-brand mr-5" href="/">
           <h1>VIJAYANAND</h1>
         </a>
         <button
@@ -23,7 +23,7 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/">
                 Home <span class="sr-only">(current)</span>
               </a>
             </li>

@@ -27,17 +27,19 @@
 } */
 
 .card-edu {
-  /* border: 1px solid black; */
-  border-radius: 25px;
+  border: 1px solid rgb(46, 46, 46);
+  /* border-radius: 25px; */
   background: #383838;
   min-height: 370px;
-
+  border-radius: 0px;
+  background: linear-gradient(45deg, #323232, #3c3c3c);
+  box-shadow: 5px -5px 11px #2b2b2b, -5px 5px 11px #454545;
   transition: 0.4s;
 }
 .card-edu:hover {
-  box-shadow: inset 5px -5px 9px #191919, inset -5px 5px 9px #575757;
+  /* box-shadow: inset 5px -5px 9px #191919, inset -5px 5px 9px #575757; */
   max-height: 500px;
-  padding: 10px;
+  /* padding: 10px; */
 }
 @media only screen and (max-width: 400px) {
   #education {
@@ -69,11 +71,13 @@
   }
 
   .card-edu {
-    /* border: 1px solid black; */
-    border-radius: 25px;
+    border: 1px solid rgb(46, 46, 46);
+    /* border-radius: 25px; */
     background: #383838;
     min-height: 370px;
-
+    border-radius: 0px;
+    background: linear-gradient(45deg, #323232, #3c3c3c);
+    box-shadow: 5px -5px 11px #2b2b2b, -5px 5px 11px #454545;
     transition: 0.4s;
   }
   .card-edu:hover {
@@ -112,11 +116,13 @@
   }
 
   .card-edu {
-    /* border: 1px solid black; */
-    border-radius: 25px;
+    border: 1px solid rgb(46, 46, 46);
+    /* border-radius: 25px; */
     background: #383838;
     min-height: 370px;
-
+    border-radius: 0px;
+    background: linear-gradient(45deg, #323232, #3c3c3c);
+    box-shadow: 5px -5px 11px #2b2b2b, -5px 5px 11px #454545;
     transition: 0.4s;
   }
   .card-edu:hover {

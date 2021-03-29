@@ -5,11 +5,11 @@ import project from "../components/Data/project";
 import Button from "./button";
 import Data from "./Data";
 
-const all = ["all", ...project.map((e) => e.cat)];
+// const all = ["all", ...project.map((e) => e.cat)];
 
 const Project = () => {
   const [pro, setPro] = useState(project);
-  const [btn, setBtn] = useState(all);
+  // const [btn, setBtn] = useState(all);
 
   const filter = (btns) => {
     if (btns === "all") {
@@ -25,7 +25,7 @@ const Project = () => {
         <div className="title">
           <h1>projects</h1>
         </div>
-        <Button btns={btn} filter={filter} />
+        <Button filter={filter} />
 
         <Data pro={pro} />
       </div>

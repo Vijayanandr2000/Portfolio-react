@@ -13,7 +13,7 @@ const About = () => {
             <div className="card-body col">
               <h1 className="center">
                 About Me
-                <a href={resume} target="_blank">
+                <a href={resume} target="_blank" rel="noreferrer">
                   Download Resume
                 </a>
               </h1>

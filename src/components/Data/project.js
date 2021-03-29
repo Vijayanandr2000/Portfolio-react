@@ -28,6 +28,16 @@ export default [
     demo: "https://pagination-reactjs.herokuapp.com/",
   },
   {
+    id: 17,
+    title: "Search the food",
+    des:
+      "We can search the food and get the ingredients and detail of tha food",
+    // tech: { react, css, bootstrap },
+    cat: "react",
+    code: "https://github.com/Vijayanandr2000/Serach-the-food-React",
+    demo: "https://search-the-food-react.herokuapp.com/",
+  },
+  {
     id: 3,
     title: "Search-Country",
     des: "Using React a simple SEARCH is used for getting a country data ",

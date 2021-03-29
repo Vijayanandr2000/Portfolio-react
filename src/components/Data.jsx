@@ -19,10 +19,10 @@ function Data({ pro }) {
 
                     <h6 className="card-subtitle ">{e.des}</h6>
                     <div className="link">
-                      <a href={e.code} target="_blank">
+                      <a href={e.code} target="_blank" rel="noreferrer">
                         CODE
                       </a>
-                      <a href={e.demo} target="_blank">
+                      <a href={e.demo} target="_blank" rel="noreferrer">
                         DEMO
                       </a>
                     </div>
