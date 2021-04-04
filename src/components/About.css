@@ -76,7 +76,7 @@ img {
   img {
     /* margin-top: 30px; */
     width: 335px;
-    height: 515px;
+    height: 520px;
     /* margin-left: 20px; */
   }
   .card {
@@ -155,9 +155,9 @@ img {
 }
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   img {
-    /* margin-top: 30px; */
+    margin-top: 30px;
     width: 383px;
-    height: 570px;
+    height: 590px;
   }
   .card {
     margin-left: 50px;

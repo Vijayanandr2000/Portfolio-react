@@ -39,8 +39,6 @@ section {
   margin-bottom: 38px;
 }
 .me h1 {
-  width: 900px;
-  /* border: 1px solid; */
   font-size: 100px;
   letter-spacing: 10px;
   text-align: center;
@@ -57,6 +55,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100% !important;
   }
   .home h1 {
     margin-top: 30vh;
@@ -66,6 +65,7 @@ section {
     letter-spacing: 2px;
     opacity: 0.3;
     text-transform: uppercase;
+    text-align: center !important;
   }
   .me {
     display: flex;
@@ -81,7 +81,7 @@ section {
     margin-bottom: 13px;
   }
   .me h1 {
-    width: 700px;
+    /* width: 700px; */
     /* border: 1px solid; */
     font-size: 30px;
     letter-spacing: 3px;
@@ -124,7 +124,7 @@ section {
     margin-bottom: 22px;
   }
   .me h1 {
-    width: 700px;
+    /* width: 700px; */
     /* border: 1px solid; */
     font-size: 36px;
     letter-spacing: 3px;

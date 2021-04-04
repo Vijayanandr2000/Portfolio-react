@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 const Home = () => {
   return (
     <div className="body">
-      <div className="home">
+      <div className="home text-center">
         <h1>programmer</h1>
       </div>
       <div className="me">

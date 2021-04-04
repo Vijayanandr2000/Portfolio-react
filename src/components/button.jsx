@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Button = ({ btns, filter }) => {
   return (
     <div>
-      <div className="row btn-row">
-        <div className="col-lg-2 col-sm-2 col-md-1 col-btn ">
+      <div className="row btn-row sticky-btn">
+        <div className="col-lg-2 col-sm-1 col-md-2 col-btn ">
           <button
             type="button"
             class="btn btn-primary"
@@ -14,7 +14,7 @@ const Button = ({ btns, filter }) => {
             ALL
           </button>
         </div>
-        <div className="col-lg-2 col-sm-3 col-btn ">
+        <div className="col-lg-2 col-sm-1 col-md-2 col-btn ">
           <button
             type="button"
             class="btn btn-danger"
@@ -23,7 +23,7 @@ const Button = ({ btns, filter }) => {
             FRONTEND
           </button>
         </div>
-        <div className="col-lg-2 col-sm-3 col-btn">
+        <div className="col-lg-2 col-sm-1 col-md-2 col-btn">
           <button
             type="button"
             class="btn btn-warning"
@@ -32,7 +32,7 @@ const Button = ({ btns, filter }) => {
             REACT
           </button>
         </div>
-        <div className="col-lg-2 col-sm-3 col-btn">
+        <div className="col-lg-2 col-sm-1 col-md-2 col-btn">
           <button
             type="button"
             class="btn btn-secondary"
@@ -41,7 +41,7 @@ const Button = ({ btns, filter }) => {
             FULL STACK
           </button>
         </div>
-        <div className="col-lg-2 col-sm-3 col-btn">
+        <div className="col-lg-2 col-sm-1 col-md-2 col-btn">
           <button
             type="button"
             class="btn btn-light"

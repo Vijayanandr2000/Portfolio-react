@@ -18,6 +18,7 @@ function Data({ pro }) {
                     <h4 className=" card-protitle">{e.title}</h4>
 
                     <h6 className="card-subtitle ">{e.des}</h6>
+                    <h5 className="text-center">{e.tech}</h5>
                     <div className="link">
                       <a href={e.code} target="_blank" rel="noreferrer">
                         CODE

@@ -10,7 +10,7 @@ const Navbar = () => {
           <h1>VIJAYANAND</h1>
         </a>
         <button
-          class="navbar-toggler mr-0"
+          class="navbar-toggler "
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -20,7 +20,7 @@ const Navbar = () => {
         >
           <span class="navbar-toggler-icon  "></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse nav-bc" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="/">

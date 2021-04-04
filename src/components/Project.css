@@ -3,6 +3,10 @@
 
   /* box-shadow: inset -50px 50px 100px #252525, inset 50px -50px 100px #515151; */
 }
+/* .sticky-btn {
+  position: sticky !important;
+  background: brown;
+} */
 
 #pro-card {
   box-shadow: inset -50px 50px 100px #252525, inset 50px -50px 100px #515151;
@@ -35,6 +39,19 @@
   margin-top: -15px;
   font-family: bold !important;
 }
+.card-pro h5 {
+  color: #ffdada;
+  /* border: 2px solid red; */
+  background-color: #202020;
+  /* border-radius: 20px; */
+  padding: 10px;
+  font-weight: lighter;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 30px;
+}
+
 .link {
   display: flex;
   align-items: center !important;
@@ -127,5 +144,19 @@
     width: 110px;
     margin-bottom: 5px;
     margin-left: 120px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .col-btn button {
+    display: inline-block;
+
+    width: 110px;
+    margin-bottom: 5px;
+    margin-left: 135px;
+  }
+  .col-pro {
+    margin-bottom: 20px !important;
+    margin-left: -20px;
+    /* box-shadow: inset -50px 50px 100px #252525, inset 50px -50px 100px #515151; */
   }
 }
