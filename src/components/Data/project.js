@@ -170,6 +170,15 @@ export default [
   },
   {
     id: 16,
+    title: "Instagram -Clone",
+    des: "Instagram has recreted with basic stuff's.",
+    tech: "Mongodb, Express, React, Nodejs",
+    cat: "fs",
+    code: "CODE",
+    demo: "DEMO",
+  },
+  {
+    id: 16,
     title: "Automatic Writting Pen",
     tech: "Ardinuo, EmbeddedC",
 
