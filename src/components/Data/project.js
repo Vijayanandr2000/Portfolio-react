@@ -140,8 +140,9 @@ export default [
   },
   {
     id: 13,
-    title: "URL-Shortener",
-    des: "This is used for reducing the size of Long url to Short Url",
+    title: "TODO's",
+    des:
+      "This app is build by using CRUD operation and getting data from backend.",
     tech: "Mongodb, Express, React, Nodejs",
     cat: "fs",
     code: "CODE",
@@ -154,8 +155,9 @@ export default [
       "A simple Signin and Singn up system by storing the data in the Database",
     tech: "Mongodb, Express, React, Nodejs",
     cat: "fs",
-    code: "CODE",
-    demo: "DEMO",
+    code: "https://github.com/Vijayanandr2000/Login-client",
+    demo:
+      "https://607afe8fc471af000777a256--determined-mahavira-18813d.netlify.app/",
   },
   {
     id: 15,
@@ -174,5 +176,6 @@ export default [
     des:
       "Sending the Voice command through bluetooth and that will convert to the Text format",
     cat: "clg",
+    code: "https://github.com/Vijayanandr2000/writing-robot-code",
   },
 ];
