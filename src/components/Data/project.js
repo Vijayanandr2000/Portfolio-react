@@ -176,7 +176,7 @@ export default [
     cat: "fs",
     code: "https://github.com/Vijayanandr2000/insta-clone",
     demo:
-      "https://607e66e5c105960007391739--heuristic-ride-b9551c.netlify.app/signup",
+      "https://607e66e5c105960007391739--heuristic-ride-b9551c.netlify.app/",
   },
   {
     id: 16,
