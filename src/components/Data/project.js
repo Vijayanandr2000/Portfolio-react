@@ -174,8 +174,9 @@ export default [
     des: "Instagram has recreted with basic stuff's.",
     tech: "Mongodb, Express, React, Nodejs",
     cat: "fs",
-    code: "CODE",
-    demo: "DEMO",
+    code: "https://github.com/Vijayanandr2000/insta-clone",
+    demo:
+      "https://607e66e5c105960007391739--heuristic-ride-b9551c.netlify.app/signup",
   },
   {
     id: 16,
