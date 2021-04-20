@@ -156,8 +156,7 @@ export default [
     tech: "Mongodb, Express, React, Nodejs",
     cat: "fs",
     code: "https://github.com/Vijayanandr2000/Login-client",
-    demo:
-      "https://607afe8fc471af000777a256--determined-mahavira-18813d.netlify.app/",
+    demo: "https://determined-mahavira-18813d.netlify.app/",
   },
   {
     id: 15,
