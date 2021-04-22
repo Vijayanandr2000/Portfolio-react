@@ -178,7 +178,17 @@ export default [
       "https://607e66e5c105960007391739--heuristic-ride-b9551c.netlify.app/",
   },
   {
-    id: 16,
+    id: 18,
+    title: "Task-Assigner",
+    des: "Task assigning for the student's by the Faculty's",
+    tech: "Mongodb, Express, React, Nodejs",
+    cat: "fs",
+    code: "https://github.com/Vijayanandr2000/task-assigner-fs",
+    demo:
+      "https://608190730a319f000783150b--competent-snyder-fd6f4a.netlify.app/",
+  },
+  {
+    id: 17,
     title: "Automatic Writting Pen",
     tech: "Ardinuo, EmbeddedC",
 
