@@ -164,8 +164,9 @@ export default [
     des: "Secret message sending",
     tech: "Mongodb, Express, React, Nodejs",
     cat: "fs",
-    code: "CODE",
-    demo: "DEMO",
+    code: "https://github.com/Vijayanandr2000/secret-msg-fs",
+    demo:
+      "https://60826198f6e34e8509f26f32--practical-bardeen-6c7d64.netlify.app/",
   },
   {
     id: 16,
