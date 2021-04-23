@@ -166,7 +166,7 @@ export default [
     cat: "fs",
     code: "https://github.com/Vijayanandr2000/secret-msg-fs",
     demo:
-      "https://60826198f6e34e8509f26f32--practical-bardeen-6c7d64.netlify.app/",
+      "https://6082901cbd321ed035dd6723--practical-bardeen-6c7d64.netlify.app",
   },
   {
     id: 16,
